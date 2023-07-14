@@ -8,7 +8,7 @@
 # Далее счётчик файлов и расширение. 3.Соберите из созданных на уроке и в рамках домашнего задания
 # функций пакет для работы с файлами.
 
-from pathlib import Path
+''' from pathlib import Path
 
 
 def rename_files(count_nums: int, extension_start: str, extension_final: str,
@@ -37,4 +37,4 @@ def test_func():
 
 if __name__ == '__main__':
     rename_files(3, 'txt', 'png', 2, 4, 'master')
-    #print(test_func())
+    #print(test_func()) '''

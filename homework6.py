@@ -4,9 +4,9 @@
 # определите, есть ли среди них пара бьющих друг друга.
 # Программа получает на вход восемь пар чисел, каждое число от 1 до 8 - координаты 8 ферзей.
 # Если ферзи не бьют друг друга верните истину, а если бьют - ложь.
-import random
+# import random
 
-def make_desk(size: int) -> list[[int]]:
+'''def make_desk(size: int) -> list[[int]]:
     EMPTY = 0
     return [[EMPTY for _ in range(size)] for _ in range(size)]
 
@@ -109,4 +109,4 @@ if __name__ == "__main__":
     print(is_beat(8, queens_2))
     # generate = generate_queens_coordinates()
     # show_desk(generate)
-    show_success()
+    show_success() '''
