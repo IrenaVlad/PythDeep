@@ -28,8 +28,8 @@ def check_triangle(a, b, c):
     else:
         logger.error(f'Треугольника {a}/{b}/{b} не существует')
 
-    if __name__ == '__main__':
-        parser = argparse.ArgumentParser(description="Проверка треугольника")
-        parser.add_argument("param", metavar="a b c", type=int, nargs=3, help="Введите a b c через пробел")
-        args = parser.parse_args()
-        check_triangle(*args.param)
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Проверка треугольника")
+    parser.add_argument("param", metavar="a b c", type=int, nargs=3, help="Введите a b c через пробел")
+    args = parser.parse_args()
+    check_triangle(*args.param)
